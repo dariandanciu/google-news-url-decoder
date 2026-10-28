@@ -1,0 +1,14 @@
+{
+    "name": "google-news-url-decoder",
+    "version": "1.0.0",
+    "description": "Decode Google News links (news.google.com/rss/articles/...) to the real publisher URLs. Zero dependencies.",
+    "type": "module",
+    "exports": "./src/index.js",
+    "bin": { "gnews-decode": "bin/gnews-decode.js" },
+    "files": ["src", "bin"],
+    "engines": { "node": ">=20" },
+    "scripts": { "test": "node --test" },
+    "keywords": ["google-news", "rss", "url-decoder", "batchexecute", "news", "scraping"],
+    "repository": { "type": "git", "url": "git+https://github.com/dariandanciu/google-news-url-decoder.git" },
+    "license": "MIT"
+}
